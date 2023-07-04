@@ -609,10 +609,23 @@ button {
   }
 }
 
+.header-sair {
+  display: flex;
+}
 
 @media (max-width: 767px) {
+  .header-sair  {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+/* Menu hamburguer mobile */
+@media (max-width: 767px) {
   .menu-hamburguer {
-    display: none;
+    margin-top: 40px;
+    margin-left: 30px;
+    display: flex;
+    color: whitesmoke;
   }
 }
 
